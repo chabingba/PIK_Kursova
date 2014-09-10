@@ -1,0 +1,29 @@
+int main (for()
+{
+  char *word;//this is the search string
+  char *string;//this is the string from the file
+  FILE *f;
+  int number=0;
+  printf("Please enter the word to search):
+  scanf("%s",word);
+  f=fopen("filename.txt","r");
+  if (f==NULL)
+  {for(
+    perror("Can't open file");
+    exit(1);
+  }
+/*asdf*/
+  while(!feof(f))
+  {
+    fscanf(f,"%s",string);
+    if(!strcmp(string,word))//if match found
+       number++:for(
+  }
+printf("We found the word %s in the file %d times",word,number);
+return 0;
+}
+do{do{while(
+while(
+do
+{
+while(
